@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="about_style.css">
+    <title>About</title>
+</head>
+
+<body>
+    <header>
+        
+            <div class="menu d_flex_row">
+                <a href="index.html" class="logo">
+                    <div class="logo_container d_flex_row logo_header">
+                        <div class="logo_name d_flex_column">
+                            <h2 style="color:#34b4eb;">Vinn Technologies</h2>
+                        </div>
+                    </div>
+                </a>
+                <nav>
+                    <ul class="navbar d_flex_row">
+                        <li><a class="nav_about nav_li" href="about.html">About</a></li>
+                        <li><a class="nav_li" href="#">Program</a></li>
+                        <li><a class="nav_li" href="index.html">Courses</a></li>
+                        <li><a class="nav_li" href="index.html">Team</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="join_btn">Register</a>
+            </div>
+        </div>
+        <nav class="navbar_mobile_ver">
+            <div onclick="openMenu()" class="mobile_ver d_flex_column">
+                <div class="humgurger_menu"></div>
+                <div class="humgurger_menu"></div>
+                <div class="humgurger_menu"></div>
+            </div>
+            <ul class="navbar_mobile d_flex_column">
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Program</a></li>
+                <li><a href="home.html">Courses</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><img onclick="closeMenu()" src="./images/cancel.png" alt="close button"></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="headline_section">
+        <div class="headlines d_flex_column">
+            <h3 class="moto">"From Zero to Hero"</h3>
+            <h1 class="title1">Vinn Technologies </h1>
+                        <hr class="break_line">
+            <p class="informtion"></p>
+             <p class="information_desktop">World's most powerfull AI-driven learning platfrom, Test platform, Jobs search platform & Human Resource System.
+                With the advancement of AI and Data Sciences, it’s about time we use it to build the most powerful platform to help learners uniquely succeed. . With over 1.5 million engineers alone graduating every year from colleges and universities spread across the country, and over five thousand software companies vying for them, the logistics of entry-level recruitment in India are daunting, to say the least - both for recruiters as well as job-seekers. By all accounts, this challenge is only going to get more acute in the coming years, as the workforce in the knowledge industries expands to several times its current figure.</p>
+            <p class="contact_us">Please contact us per Email for any further questions</p>
+            <p class="email">info@vinntechnologies.com</p>
+        </div>
+    
+    <Footer>
+                <div class="copyright_footer d_flex_row">
+            <div class="logo_container d_flex_row footer_logo">
+                <img src="./images/graduation-cap2.png" alt="graduation cap">
+                <div class="logo_name d_flex_column">
+                    <h2>Vinn Tecnologies</h2>
+                    
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="copyright_info d_flex_row">
+                    <img class="copyright_img" src="./images/copyright.png" alt="copyright">
+                    <h4 class="cr_info">copyright all rights reserved to Vinn Technologies</h4>
+                </div>
+            </div>
+        </div>
+    </Footer>
+
+    <script src="mobileMenu.js"></script>
+</body>
+
+</html>
